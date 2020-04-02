@@ -1,0 +1,76 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+html {
+	box-sizing:border-box;
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+}
+
+body {
+	background-color:rgb(148,197,109);
+}
+
+#container {
+	width:500px;
+	margin:20px auto;
+	padding:20px;
+	color:rgb(89,88,77);
+	background-color:rgb(255,255,255);
+	font-family:'Open Sans', sans-serif;
+	text-align:center;
+	border:5px double rgb(148,197,109);
+	border-radius:5px;
+}
+
+h1 {
+	color:rgb(148,197,109);
+	font-family:'Galada', cursive;
+	font-size:50px;
+}
+
+input:focus {
+	outline:0;
+}
+
+#answer {
+	font-size:50px;
+	letter-spacing:10px;
+}
+
+#char, #guess {
+	margin:20px 0;
+	padding:10px;
+	color:rgb(89,88,77);
+	font-size:20px;
+	text-align:center;
+}
+
+#char {
+	width:50px;
+}
+
+#turns, #result {
+	margin-bottom:20px;
+	font-size:25px;
+}
+
+#again {
+	margin-bottom:15px;
+	padding-top:5px;
+}
+
+a {
+	color:rgb(148,197,109);
+	font-size:15px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a:hover {
+	color:rgba(148,197,109,0.5);
+}
